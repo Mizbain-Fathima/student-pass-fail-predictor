@@ -107,7 +107,7 @@ http://localhost:8501
 5. Click Deploy 
 
 Your model and app will be hosted at a public URL like:
-https://student-pass-fail-predictor.streamlit.app
+https://student-pass-fail-predictor-jax2iwhfc5qkz4kfkf9fha.streamlit.app
 
 ---
 
