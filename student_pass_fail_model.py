@@ -60,5 +60,5 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
 
 # 9) Save model --------------------------------------------------------------
-joblib.dump(best_model, "best_pass_fail_model.joblib")
+joblib.dump(best_model, "best_pass_fail_model.joblib", compress=3)
 print("\nSaved: best_pass_fail_model.joblib")
