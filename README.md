@@ -4,7 +4,7 @@ An interactive Machine Learning web app that predicts whether a student is likel
 
 ---
 
-Built using:
+### Built using:
 
 - Scikit-learn — for training the Decision Tree Classifier
 - Pandas — for data handling and preprocessing
@@ -12,9 +12,11 @@ Built using:
 - Streamlit — for creating a clean, interactive web UI
 - Live Demo
 
-Once deployed on Streamlit Cloud, you can access it here (replace with your link):
+Once deployed on Streamlit Cloud, you can access it here:
 
 👉 https://student-pass-fail-predictor.streamlit.app
+
+---
 
 ## About the Project
 
@@ -31,6 +33,8 @@ The model predicts a binary outcome:
 PASS → final grade G3 >= 10
 FAIL → final grade G3 < 10
 
+---
+
 ## Features
 
 - Predicts Pass/Fail status instantly
@@ -38,6 +42,8 @@ FAIL → final grade G3 < 10
 - User-friendly, interactive web interface
 - Built entirely with open-source tools
 - Can be accessed anywhere using Streamlit Cloud
+
+---
 
 ## Tech Stack
 
@@ -48,6 +54,8 @@ FAIL → final grade G3 < 10
 | Frontend          | Streamlit                |
 | Data Handling     | Pandas                   |
 | Model Persistence | Joblib                   |
+
+---
 
 ## Folder Structure
 
@@ -60,6 +68,8 @@ FAIL → final grade G3 < 10
  ┣  requirements.txt              # Dependencies for deployment
  ┗  README.md                     # Project documentation
 ```
+
+---
 
 ##  How to Run Locally
 
@@ -90,18 +100,16 @@ http://localhost:8501
 
 ## Deploying on Streamlit Cloud
 
-Push your project to a public GitHub repo.
-
-Go to https://share.streamlit.io
-
-Click “New App” → Select your repo and branch.
-
-Set Main file path: app_pass_fail.py
-
-Click Deploy 
+1. Push your project to a public GitHub repo.
+2. Go to https://share.streamlit.io
+3. Click “New App” → Select your repo and branch.
+4. Set Main file path: app_pass_fail.py
+5. Click Deploy 
 
 Your model and app will be hosted at a public URL like:
 https://student-pass-fail-predictor.streamlit.app
+
+---
 
 ## Model Summary
 
